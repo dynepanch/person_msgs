@@ -9,4 +9,8 @@ cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
 
-ros2 interface show person_msgs/msg/Person
+echo $?
+
+ros2 interface show person_msgs/msg/Perso
+
+echo $?
