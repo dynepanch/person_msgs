@@ -16,6 +16,8 @@ string型のnameとunit8型のageをまとめて送信できる型です。
 # 導入方法
 
 ```
+~/ros2_ws/$ source ~/.bashrc
+
 ~/ros2_ws/src/$ git clone https://github.com/dynepanch/person_msgs.git
 
 
@@ -25,6 +27,7 @@ string型のnameとunit8型のageをまとめて送信できる型です。
 使用しているros2_ws/src内にクローンしてください
 
 使用の前にビルドを実行してください
+
 
 # 導入確認
 
@@ -56,6 +59,7 @@ string tips
 LICENSE:https://github.com/dynepanch/person_msgs/blob/master/LICENSE
 
 # 参考
+
 * [Create Dockerfile for ros2 package : ament_cmake error](https://answers.ros.org/question/319610/create-dockerfile-for-ros2-package-ament_cmake-error/)
   
   github Actions のテストの際に参考にさせていただきました
