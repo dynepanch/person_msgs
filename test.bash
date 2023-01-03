@@ -11,6 +11,6 @@ source $dir/.bashrc
 
 echo $?
 
-ros2 interface show person_msgs/msg/Perso
+ros2 interface show person_msgs/msg/Person
 
 echo $?
