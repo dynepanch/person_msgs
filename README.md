@@ -54,3 +54,8 @@ string tips
 千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
 
 LICENSE:https://github.com/dynepanch/person_msgs/blob/master/LICENSE
+
+# 参考
+* Create Dockerfile for ros2 package : ament_cmake error 
+  https://answers.ros.org/question/319610/create-dockerfile-for-ros2-package-ament_cmake-error/
+  github Actions のテストの際に参考にさせていただきました
