@@ -5,11 +5,9 @@ dir=~
 [ "$1" != "" ] && dir="$1"
 
 
-cd $dir/ros2_ws/src/person_msgs
-colcon build
-
 cd $dir/ros2_ws/
-colcon build
+colcon build --cmake-clean-cache
+
 source $dir/.bashrc
 
 echo $?
