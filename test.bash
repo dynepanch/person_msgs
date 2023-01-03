@@ -12,6 +12,4 @@ source $dir/.bashrc
 
 echo $?
 
-ros2 interface show person_msgs/msg/Person
-
-echo $?
+ros2 interface show "person_msgs/msg/Person"
