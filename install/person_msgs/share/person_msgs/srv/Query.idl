@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from person_msgs/srv/Query.srv
+// generated code does not contain a copyright notice
+
+
+module person_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "SPDX-FileCopyrightText: 2022 Ken Inaba rightman20020920@yahoo.co,jp" "\n"
+      "SPDX-Licence-Identifire: BSD-3-Clause")
+    struct Query_Request {
+      string name;
+    };
+    struct Query_Response {
+      string tips;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from person_msgs/msg/Person.msg
+// generated code does not contain a copyright notice
+
+
+module person_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "SPDX-FileCopyrightText: 2022 Ken Inaba rightman20020920@yahoo.co,jp" "\n"
+      "SPDX-Licence-Identifire: BSD-3-Clause")
+    struct Person {
+      string name;
+
+      uint8 age;
+    };
+  };
+};
