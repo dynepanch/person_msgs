@@ -7,6 +7,9 @@ dir=~
 
 cd $dir/ros2_ws/src/person_msgs
 colcon build
+
+cd $dir/ros2_ws/
+colcon build
 source $dir/.bashrc
 
 echo $?
